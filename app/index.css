@@ -1,0 +1,276 @@
+body{
+  margin: 0px;
+}
+
+/* item page */
+
+.itemPage__p{
+  width: 400px;
+  height: 90%;
+  position: relative;
+  padding-bottom: 4rem;
+}
+
+.name_top__p{
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0px auto;
+}
+
+.top_section__p{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #efefef;
+}
+
+.top_section__p *, .mid_section__p *{
+  display: inline;
+}
+
+.top_section__p img{
+  height: 20px;
+  width: 20px;
+  filter: opacity(40%);
+  -webkit-filter: opacity(40%);
+  cursor: pointer;
+}
+
+.search_button__p, .share_button__p{
+  float:right;
+  margin: 0px 5px;
+}
+
+.name_bottom__p{
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mid_section__p{
+  padding: 1rem 1rem;
+}
+
+.like_button__p, .comment_button__p, .flag_button__p{
+  background-color: #efefef;
+  color: #8e8d92;
+  border-radius: 15px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.comment_button__p{
+  margin-left: 2rem;
+}
+
+.comment_icon__p{
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  top: 3px;
+  margin-right: 3px;
+  filter: opacity(30%);
+  -webkit-filter: opacity(30%);
+}
+
+.flag_button__p{
+  float: right;
+  width: 1rem;
+  height: 1rem;
+}
+
+.flag_icon__p{
+  width: 1rem;
+  height: 1rem;
+  filter: opacity(30%);
+  -webkit-filter: opacity(30%);
+}
+
+.description_header__p{
+  background-color: #efefef;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.description__p{
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.order_section__p{
+  background-color: #36231f;
+  position: fixed;
+  bottom: 0px;
+  color: #ebe8e8;
+  padding: 15px 3px 15px 3px;
+  width: 400px;
+  height: 2rem;
+}
+
+.order_section__p *{
+  display: inline;
+}
+
+.price__p{
+  font-size: 2rem;
+  font-family: arial;
+}
+
+.shipping_fee__p{
+  font-size: 0.7rem;
+}
+
+.order_button__p{
+  background-color: #c92933;
+  height: 2.3em;
+  position: relative;
+  top: -8px;
+  float: right;
+  padding: 0.7rem 10px 0px 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* list page */
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.list_page{
+  background-color: #efefef;
+}
+
+#navbar{
+  text-align: center;
+}
+
+#navbar_top{
+  width: 100%;
+  border-bottom: 2px solid #efefef;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+#navbar_top img{
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  filter: opacity(40%);
+  -webkit-filter: opacity(40%);
+}
+
+#navbar_top *{
+  margin: 0px 4px;
+}
+
+#search_box{
+  width: 300px;
+  border-radius: 5px;
+  border:0px;
+  background-color: #efefef;
+  padding: 3px;
+}
+
+#bell_icon, #check_icon{
+  float: right;
+}
+
+#navbar_bottom{
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+#navbar_bottom *{
+  display: inline;
+  padding: 0px 1rem;
+  color: grey;
+}
+
+.category{
+  cursor: pointer;
+}
+
+ul{
+  list-style-type: none;
+  display : flex;
+  flex-wrap : wrap;
+  margin-top: 63px;
+}
+
+li{
+  background-color: white;
+  margin : 3px;
+}
+
+.price{
+  font-weight: bold;
+  display: inline;
+}
+
+.like_count{
+  display: inline;
+  float: right;
+}
+
+.is_sold_out{
+  width: 0px;
+  height: 0px;
+  border-top: 30px solid red;
+  border-left: 30px solid red;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  position: absolute;
+}
+
+.is_sold_out_inner{
+  width: 20px;
+  height: 20px;
+  color: white;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -10px;
+  left: -25px;
+  font-family: arial;
+}
+
+p{
+  margin: 0px 4px;
+}
+
+#navbar{
+  position: fixed;
+  top:0px;
+  left:0px;
+  background-color: white;
+  width: 100%;
+  z-index: 100;
+}
+
+#camera_button{
+  position: fixed;
+  color: white;
+  bottom: -15px;
+  right: -15px;
+  z-index: 200;
+  background-color: #e3463d;
+  border-radius: 3.5rem;
+  padding: 1.5rem;
+  cursor: pointer;
+}
+
+#camera_text{
+  position: absolute;
+  left: 35px;
+  top: 20px;
+}
+
+#camera_icon{
+  position: relative;
+  top: 14px;
+  width: 4rem;
+  height: 4rem;
+}
